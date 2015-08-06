@@ -1,0 +1,34 @@
+{
+    "name": "vulib/vulib",
+    "version": "0.1.0",
+    "description": "VuLib Library Automation System",
+    "type": "project",
+    "keywords": ["Library Automation", "VuLib"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimas Ahmad Eka Putra",
+            "email": "dimasahmad@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "swiftmailer/swiftmailer": "^5.4",
+        "psr/log": "^1.0",
+        "monolog/monolog": "^1.15",
+        "vlucas/phpdotenv": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.7",
+        "phpspec/phpspec": "~2.1",
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "VuLib\\": "app/"
+        }
+    }
+}
